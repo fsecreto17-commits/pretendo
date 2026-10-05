@@ -1,0 +1,21 @@
+{
+  "name": "SOAP",
+  "version": "1.0.0",
+  "description": "Nintendo SOAP replacement",
+  "main": "./src/server",
+  "scripts": {
+    "start": "node ./src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "express-subdomain": "^1.0.5",
+    "fs-extra": "^8.1.0",
+    "morgan": "^1.9.1",
+    "xmlbuilder": "^13.0.2",
+    "xmlbuilder2": "0.0.4"
+  }
+}
